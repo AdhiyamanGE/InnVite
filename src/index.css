@@ -1,0 +1,21 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+input, select, textarea {
+  font-size: 16px;
+  font-family: Georgia, serif;
+}
+button {
+  font-family: Georgia, serif;
+  cursor: pointer;
+}
+@media print {
+  button { display: none !important; }
+}
